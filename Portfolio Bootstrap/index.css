@@ -1,0 +1,46 @@
+:root {
+  --github: #fafafa;
+  --linkedin: #006599;
+  --twitter: #2daae4;
+  --gmail: #f14436;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+#work {
+  background-color: rgba(103, 103, 103, 0.621);
+}
+
+#form {
+  background-image: url('./img/background-form.jpg');
+  object-fit: cover;
+}
+
+footer {
+  background-color: #858585;
+}
+
+p {
+  font-size: 12px;
+}
+
+.social {
+  margin: 0;
+  padding: 1rem 0;
+  list-style: none;
+}
+
+.fa-github:hover {
+  color: var(--github);
+}
+.fa-linkedin:hover {
+  color: var(--linkedin);
+}
+.fa-twitter:hover {
+  color: var(--twitter);
+}
+.fa-envelope:hover {
+  color: var(--gmail);
+}
