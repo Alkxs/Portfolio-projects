@@ -1,3 +1,4 @@
+import Navbar from './components/Navbar'
 // import About from './components/About'
 // import Projects from './components/Projects'
 // import Skills from './components/Skills'
@@ -7,15 +8,16 @@
 function App() {
 
   return (
-    <div className="App">
-      {/* /* <main>
-        <About />
+    <>
+      <main className=''>
+        <Navbar />
+        {/* <About />
         <Projects />
         <Skills />
         <Contact />
-        <Footer />
-      </main> */}
-    </div>
+        <Footer /> */}
+      </main>
+    </>
       
   )
 }
