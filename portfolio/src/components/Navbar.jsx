@@ -3,6 +3,8 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin, FaTwitter} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import logo from '../assets/logo.svg'
+import {Link} from 'react-scroll'
+import Home from './Home'
 
 const Navbar = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false)
@@ -19,11 +21,31 @@ const Navbar = () => {
       </div>
       {/* Menu */}
       <ul className='hidden md:flex'>
-        <li>Home</li>
-        <li>About</li>
-        <li>Projects</li>
-        <li>Skills</li>
-        <li>Contact</li>
+        <li>
+          <Link onClick={handleMobileMenuToggle} to='home' smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link onClick={handleMobileMenuToggle}to='about' smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li>
+          <Link onClick={handleMobileMenuToggle}to='projects' smooth={true} duration={500}>
+            Projects
+          </Link>
+        </li>
+        <li>
+          <Link onClick={handleMobileMenuToggle}to='skills' smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li>
+          <Link onClick={handleMobileMenuToggle}to='contact' smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/* Hamburger */}
@@ -32,11 +54,31 @@ const Navbar = () => {
       </div>
       {/* Mobile menu */}
       <ul className={showMobileMenu ? 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center opacity-95' : 'hidden'}>
-        <li className='py-6 text-4xl '>Home</li>
-        <li className='py-6 text-4xl '>About</li>
-        <li className='py-6 text-4xl '>Projects</li>
-        <li className='py-6 text-4xl '>Skills</li>
-        <li className='py-6 text-4xl '>Contact</li>
+        <li className='py-6 text-4xl '>
+          <Link onClick={handleMobileMenuToggle} onClick={handleMobileMenuToggle} to='home' smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li className='py-6 text-4xl '>
+          <Link onClick={handleMobileMenuToggle} to='about' smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li className='py-6 text-4xl '>
+          <Link onClick={handleMobileMenuToggle} to='home' smooth={true} duration={500}>
+            Projects
+          </Link>
+        </li>
+        <li className='py-6 text-4xl '>
+          <Link onClick={handleMobileMenuToggle} to='skills' smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li className='py-6 text-4xl '>
+          <Link onClick={handleMobileMenuToggle} to='contact' smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
       {/* Social Icons */}
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0 '>
