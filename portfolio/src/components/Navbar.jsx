@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
+import { FaBars, FaTimes, FaGithub, FaLinkedin, FaTwitter} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import logo from '../assets/logo.svg'
@@ -46,9 +46,14 @@ const Navbar = () => {
               Linkedin <FaLinkedin size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-1px] hover:pl-10 duration-300 bg-[#333333] rounded-r-xl m-2'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-1px] hover:pl-9 duration-300 bg-[#333333] rounded-r-xl m-2'>
             <a className='flex justify-between items-center w-full text-white' href=''>
               Github <FaGithub size={30} />
+            </a>
+          </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-1px] hover:pl-9 duration-300 bg-[#00ACEE] rounded-r-xl m-2'>
+            <a className='flex justify-between items-center w-full text-white' href=''>
+              Twitter <FaTwitter size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-1px] hover:pl-10 duration-300 bg-[#DB4437] rounded-r-xl m-2'>
@@ -56,7 +61,7 @@ const Navbar = () => {
               Gmail <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-1px] hover:pl-14 duration-300 bg-[#15c91584] rounded-r-xl m-2'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-1px] hover:pl-14 duration-300 bg-[#15c915aa] rounded-r-xl m-2'>
             <a className='flex justify-between items-center w-full text-white' href=''>
               CV <BsFillPersonLinesFill size={30} />
             </a>
