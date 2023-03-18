@@ -49,11 +49,11 @@ const Navbar = () => {
       </ul>
 
       {/* Hamburger */}
-      <div className='md:hidden cursor-pointer z-10 absolute top-0 right-0 m-6' onClick={handleMobileMenuToggle}>
-        {showMobileMenu ? <FaTimes /> : <FaBars />}
+      <div className='md:hidden cursor-pointer z-10 absolute top-1.4 right-0 m-6' onClick={handleMobileMenuToggle}>
+        {showMobileMenu ? <FaTimes size={20} /> : <FaBars size={20} />}
       </div>
       {/* Mobile menu */}
-      <ul className={showMobileMenu ? 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center opacity-95' : 'hidden'}>
+      <ul className={showMobileMenu ? 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center opacity-100' : 'hidden'}>
         <li className='py-6 text-4xl '>
           <Link onClick={handleMobileMenuToggle} onClick={handleMobileMenuToggle} to='home' smooth={true} duration={500}>
             Home
