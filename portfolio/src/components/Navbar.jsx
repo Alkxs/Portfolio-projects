@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <div className='bg-transparent text-gray-100 fixed w-full h-20 flex items-center justify-between px-8'>
-      <div className=''>
+      <div>
         <h1 className=' font-[Birthstone] tracking-wide text-4xl font-light text-violet-600'>{'<Alex Lauri />'}</h1>
         {/* <img src={logo} alt='Logo Image' /> */}
       </div>
@@ -54,22 +54,22 @@ const Navbar = () => {
       {/* Mobile menu */}
       <ul className={showMobileMenu ? 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center opacity-100' : 'hidden'}>
         <li className='py-6 text-4xl '>
-          <Link onClick={handleMobileMenuToggle}to='home' smooth={true} duration={500}>
+          <Link onClick={handleMobileMenuToggle} to='home' smooth={true} duration={500}>
             Home
           </Link>
         </li>
         <li className='py-6 text-4xl '>
-          <Link to='about' smooth={true} duration={500}>
+          <Link onClick={handleMobileMenuToggle} to='about' smooth={true} duration={500}>
             About
           </Link>
         </li>
         <li className='py-6 text-4xl '>
-          <Link to='home' smooth={true} duration={500}>
+          <Link onClick={handleMobileMenuToggle} to='home' smooth={true} duration={500}>
             Projects
           </Link>
         </li>
         <li className='py-6 text-4xl '>
-          <Link to='skills' smooth={true} duration={500}>
+          <Link onClick={handleMobileMenuToggle} to='skills' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
