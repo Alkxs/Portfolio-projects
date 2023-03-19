@@ -1,6 +1,10 @@
-const About = () => {
+const About = ({darkMode}) => {
   return (
-    <div name='about' className='w-full h-screen bg-[#0a192f] text-gray-100 flex flex-col items-center justify-center'>
+    <div
+      name='about'
+      className={`w-full h-screen bg-[#0a192f] text-gray-100 flex flex-col items-center justify-center
+    ${darkMode ? 'dark' : 'light text-[#0a192f]'}`}
+    >
       <div className='flex flex-col justify-center items-center w-full h-full max-w-[1000px]'>
         <div className='max-w-[1000] w-full grid grid-cols-2 gap-8'>
           <div className='sm:text-right pb-8 pl-4'>
