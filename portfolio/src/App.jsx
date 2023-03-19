@@ -11,6 +11,10 @@ import Contact from './components/Contact'
 function App() {
   const [darkMode, setDarkMode] = useState(null)
 
+  function toggleDarkMode() {
+    setDarkMode((prevDarkMode) => !prevDarkMode)
+  }
+
   return (
     <>
       <Navbar />
