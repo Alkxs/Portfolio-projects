@@ -14,7 +14,7 @@ const Navbar = () => {
   } 
 
   return (
-    <div className='bg-[#0a192f] text-gray-100 fixed w-full h-20 flex items-center justify-between px-8'>
+    <div className='bg-transparent text-gray-100 fixed w-full h-20 flex items-center justify-between px-8'>
       <div className=''>
         <h1 className=' font-[Birthstone] tracking-wide text-4xl font-light text-violet-600'>{'<Alex Lauri />'}</h1>
         {/* <img src={logo} alt='Logo Image' /> */}
@@ -55,7 +55,7 @@ const Navbar = () => {
       {/* Mobile menu */}
       <ul className={showMobileMenu ? 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center opacity-100' : 'hidden'}>
         <li className='py-6 text-4xl '>
-          <Link onClick={handleMobileMenuToggle} onClick={handleMobileMenuToggle} to='home' smooth={true} duration={500}>
+          <Link onClick={handleMobileMenuToggle}to='home' smooth={true} duration={500}>
             Home
           </Link>
         </li>
