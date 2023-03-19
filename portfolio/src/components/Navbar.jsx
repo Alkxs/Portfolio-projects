@@ -22,27 +22,27 @@ const Navbar = () => {
       {/* Menu */}
       <ul className='hidden md:flex'>
         <li>
-          <Link onClick={handleMobileMenuToggle} to='home' smooth={true} duration={500}>
+          <Link  to='home' smooth={true} duration={500}>
             Home
           </Link>
         </li>
         <li>
-          <Link onClick={handleMobileMenuToggle}to='about' smooth={true} duration={500}>
+          <Link to='about' smooth={true} duration={500}>
             About
           </Link>
         </li>
         <li>
-          <Link onClick={handleMobileMenuToggle}to='projects' smooth={true} duration={500}>
+          <Link to='projects' smooth={true} duration={500}>
             Projects
           </Link>
         </li>
         <li>
-          <Link onClick={handleMobileMenuToggle}to='skills' smooth={true} duration={500}>
+          <Link to='skills' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
         <li>
-          <Link onClick={handleMobileMenuToggle}to='contact' smooth={true} duration={500}>
+          <Link to='contact' smooth={true} duration={500}>
             Contact
           </Link>
         </li>
@@ -55,7 +55,7 @@ const Navbar = () => {
       {/* Mobile menu */}
       <ul className={showMobileMenu ? 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center opacity-100' : 'hidden'}>
         <li className='py-6 text-4xl '>
-          <Link onClick={handleMobileMenuToggle} onClick={handleMobileMenuToggle} to='home' smooth={true} duration={500}>
+          <Link onClick={handleMobileMenuToggle} to='home' smooth={true} duration={500}>
             Home
           </Link>
         </li>
@@ -65,7 +65,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className='py-6 text-4xl '>
-          <Link onClick={handleMobileMenuToggle} to='home' smooth={true} duration={500}>
+          <Link onClick={handleMobileMenuToggle} to='projects' smooth={true} duration={500}>
             Projects
           </Link>
         </li>
