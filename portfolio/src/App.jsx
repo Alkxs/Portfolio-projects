@@ -9,15 +9,15 @@ import Contact from './components/Contact'
 // import Footer from './components/Footer'
 
 function App() {
-  const [darkMode, setDarkMode] = useState(true)
+  // const [darkMode, setDarkMode] = useState(true)
 
-  function toggleDarkMode() {
-    setDarkMode((prevDarkMode) => !prevDarkMode)
-  }
+  // function toggleDarkMode() {
+  //   setDarkMode((prevDarkMode) => !prevDarkMode)
+  // }
 
   return (
     <>
-      <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
+      <Navbar/>
       <Home /> 
       <About />
       <Projects />

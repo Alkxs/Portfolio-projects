@@ -12,14 +12,14 @@
   }
 }
 
-@layer components {
+/* @layer components {
   .dark {
     @apply bg-[#0a192f] text-gray-200;
   }
   .light {
     @apply bg-gray-200;
   }
-}
+} */
 
 .content-div{
   background-repeat: no-repeat;

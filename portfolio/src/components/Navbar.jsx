@@ -2,11 +2,12 @@ import { useState } from 'react'
 import {FaBars, FaTimes, FaGithub, FaLinkedin, FaTwitter} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
-import {FiSun,FiMoon} from 'react-icons/fi'
+// import {FiSun,FiMoon} from 'react-icons/fi'
 import {Link} from 'react-scroll'
+import Switcher from './Switcher'
 
 
-const Navbar = ({darkMode, toggleDarkMode}) => {
+const Navbar = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false)
 
   const handleMobileMenuToggle = () => {
@@ -14,50 +15,48 @@ const Navbar = ({darkMode, toggleDarkMode}) => {
   } 
 
   return (
-    <div
-      className={`text-gray-100 fixed w-full h-20 flex items-center px-8 justify-between 
-    ${darkMode ? 'dark' : 'light text-[#0a192f]'}`}
-    >
+    <div className='bg-gray-300 dark:bg-transparent text-[#0a192f] dark:text-gray-100 fixed w-full h-20 flex items-center px-8 justify-between'>
       <div>
         <h1 className=' font-[Birthstone] tracking-wide text-4xl font-light text-violet-600'>{'<Alex Lauri />'}</h1>
         {/* <img src={logo} alt='Logo Image' /> */}
       </div>
       {/* darkModeToggleIcon */}
-      <div
-        className={`p-3 shadow-sm rounded-xl cursor-pointer
-        ${darkMode ? 'bg-slate-700' : 'bg-gray-300'}
-      `}
-        onClick={toggleDarkMode}
+      <div className='bg-gray-400 hover:border hover:border-black  dark:bg-gray-700 hover:dark:border-white hover:scale-105 p-2 flex items-center justify-center shadow-sm rounded-xl cursor-pointer transition duration-200'>
+        <Switcher />
+      </div>
+      {/* <div
+        className='p-3 shadow-sm rounded-xl cursor-pointer'
+        // onClick={toggleDarkMode}
       >
         {darkMode ? (
           <FiSun className='text-gray-300 hover:text-white text-xl' size={20} />
         ) : (
           <FiMoon className='text-gray-500 hover:text-[#0a192f]' size={20} />
         )}
-      </div>
+      </div> */}
       {/* Menu */}
       <ul className='hidden md:flex'>
-        <li className={`${darkMode ? 'hover:text-gray-300' : 'text-gray-500 hover:text-[#0a192f]'}`}>
+        <li className='hover:text-violet-600'>
           <Link to='home' smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className={`${darkMode ? 'hover:text-gray-300' : 'text-gray-500 hover:text-[#0a192f]'}`}>
+        <li className='hover:text-violet-600'>
           <Link to='about' smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className={`${darkMode ? 'hover:text-gray-300' : 'text-gray-500 hover:text-[#0a192f]'}`}>
+        <li className='hover:text-violet-600'>
           <Link to='projects' smooth={true} duration={500}>
             Projects
           </Link>
         </li>
-        <li className={`${darkMode ? 'hover:text-gray-300' : 'text-gray-500 hover:text-[#0a192f]'}`}>
+        <li className='hover:text-violet-600'>
           <Link to='skills' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className={`${darkMode ? 'hover:text-gray-300' : 'text-gray-500 hover:text-[#0a192f]'}`}>
+        <li className='hover:text-violet-600'>
           <Link to='contact' smooth={true} duration={500}>
             Contact
           </Link>
