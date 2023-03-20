@@ -24,48 +24,28 @@ const Navbar = () => {
       <div className='bg-gray-400 hover:border hover:border-black  dark:bg-gray-700 hover:dark:border-white hover:scale-105 p-2 flex items-center justify-center shadow-sm rounded-xl cursor-pointer transition duration-200'>
         <Switcher />
       </div>
-      {/* <div
-        className='p-3 shadow-sm rounded-xl cursor-pointer'
-        // onClick={toggleDarkMode}
-      >
-        {darkMode ? (
-          <FiSun className='text-gray-300 hover:text-white text-xl' size={20} />
-        ) : (
-          <FiMoon className='text-gray-500 hover:text-[#0a192f]' size={20} />
-        )}
-      </div> */}
       {/* Menu */}
       <ul className='hidden md:flex'>
-        <li>
-          <Link  to='home' smooth={true} duration={500}>
         <li className='hover:text-violet-600'>
           <Link to='home' smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li>
-          <Link to='about' smooth={true} duration={500}>
         <li className='hover:text-violet-600'>
           <Link to='about' smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li>
-          <Link to='projects' smooth={true} duration={500}>
         <li className='hover:text-violet-600'>
           <Link to='projects' smooth={true} duration={500}>
             Projects
           </Link>
         </li>
-        <li>
-          <Link to='skills' smooth={true} duration={500}>
         <li className='hover:text-violet-600'>
           <Link to='skills' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li>
-          <Link to='contact' smooth={true} duration={500}>
         <li className='hover:text-violet-600'>
           <Link to='contact' smooth={true} duration={500}>
             Contact
