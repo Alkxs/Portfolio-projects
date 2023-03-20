@@ -21,7 +21,7 @@ const Navbar = () => {
         {/* <img src={logo} alt='Logo Image' /> */}
       </div>
       {/* darkModeToggleIcon */}
-      <div className='bg-gray-400 hover:border hover:border-black  dark:bg-gray-700 hover:dark:border-white hover:scale-105 p-2 flex items-center justify-center shadow-sm rounded-xl cursor-pointer transition duration-200'>
+      <div className='md:bg-gray-400 md:hover:border md:hover:border-black  md:dark:bg-gray-700 md:hover:dark:border-white hover:scale-105 md:p-2 flex items-center justify-center shadow-sm rounded-xl cursor-pointer transition duration-200'>
         <Switcher />
       </div>
       {/* Menu */}
