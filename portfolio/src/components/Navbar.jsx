@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import {FaBars, FaTimes, FaGithub, FaLinkedin, FaTwitter} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
@@ -9,13 +9,28 @@ import Switcher from './Switcher'
 
 const Navbar = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false)
+  const [scrollPosition, setScrollPosition] = useState(0)
+
 
   const handleMobileMenuToggle = () => {
     setShowMobileMenu(!showMobileMenu)
   } 
 
+useEffect(() => {
+  const handleScroll = () => {
+    const currentScrollPosition = window.pageYOffset
+    setScrollPosition(currentScrollPosition)
+  }
+  window.addEventListener('scroll', handleScroll)
+
+  return () => {
+    window.removeEventListener('scroll', handleScroll)
+  }
+}, [])
+const navBackground = scrollPosition > 800 ? 'bg-gray-300 dark:bg-[#0a192f]' : 'bg-transparent'
+
   return (
-    <div className='bg-gray-300 dark:bg-transparent text-[#0a192f] dark:text-gray-100 fixed w-full h-20 flex items-center px-8 justify-between'>
+    <div className={`${navBackground} text-[#0a192f] dark:text-gray-100 fixed w-full h-20 flex items-center px-8 justify-between`}>
       <div>
         <h1 className=' font-[Birthstone] tracking-wide text-4xl font-light text-violet-600'>{'<Alex Lauri />'}</h1>
         {/* <img src={logo} alt='Logo Image' /> */}

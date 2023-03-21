@@ -1,4 +1,5 @@
 import {HiArrowNarrowRight} from 'react-icons/hi'
+import { Link } from 'react-scroll'
 import Typewriter from 'typewriter-effect'
 
 const Home = () => {
@@ -20,12 +21,14 @@ const Home = () => {
             />
           </h2>
           <div>
+            <Link to='projects' smooth={true} duration={500}>
             <button className='text-[#0a192f] dark:text-white group border-[#0a192f] dark:border-white border-2 px-6 py-3 my-2 flex items-center hover:bg-violet-600 dark:hover:border-violet-600 rounded-md'>
               View Work
               <span className='group-hover:rotate-90 duration-300'>
                 <HiArrowNarrowRight className='ml-4' />
               </span>
             </button>
+            </Link>
           </div>
         </div>
       </section>
