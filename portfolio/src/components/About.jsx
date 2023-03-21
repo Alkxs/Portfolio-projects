@@ -14,7 +14,7 @@ const About = ({}) => {
           <div className='flex justify-center items-center w-1/2 '>
             <img className='rounded-2xl w-3/4' src={profile}></img>
           </div>
-          <div className='w-1/2 max-h-screen grid grid-rows-8 gap-4 p-4'>
+          <div className='w-1/2 max-h-screen grid grid-rows-8 gap-4'>
             <div>I am Alex Lauri</div>
             <div>
               I am a fullstack web developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web

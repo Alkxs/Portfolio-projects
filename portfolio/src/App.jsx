@@ -7,6 +7,7 @@ import Projects from './components/Projects'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
 // import Footer from './components/Footer'
+import ScrollTop from './components/ScrollTop'
 
 function App() {
   // const [darkMode, setDarkMode] = useState(true)
@@ -17,12 +18,13 @@ function App() {
 
   return (
     <>
-      <Navbar/>
-      <Home /> 
+      <Navbar />
+      <Home />
       <About />
       <Projects />
       <Skills />
       <Contact />
+      <ScrollTop />
 
       {/* 
         <Footer /> */}
