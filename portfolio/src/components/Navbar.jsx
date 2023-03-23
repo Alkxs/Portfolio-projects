@@ -36,9 +36,7 @@ const navBackground = scrollPosition > 800 ? 'bg-gray-300 dark:bg-[#0a192f]' : '
         {/* <img src={logo} alt='Logo Image' /> */}
       </div>
       {/* darkModeToggleIcon */}
-      <div className='md:bg-gray-400 md:hover:border md:hover:border-black  md:dark:bg-gray-700 md:hover:dark:border-white hover:scale-105 md:p-2 flex items-center justify-center shadow-sm rounded-xl cursor-pointer transition duration-200'>
         <Switcher />
-      </div>
       {/* Menu */}
       <ul className='hidden md:flex'>
         <li className='hover:text-violet-600'>

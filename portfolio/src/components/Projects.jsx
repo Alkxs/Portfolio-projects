@@ -2,9 +2,9 @@ import project from '../assets/workImg.jpeg'
 
 const Projects = () => {
   return (
-    <div name='projects' className='w-full h-full pb-12 bg-gray-300 dark:bg-[#0a192f] text-[#0a192f] dark:text-gray-200'>
-      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-        <div className='pb-8'>
+    <section name='projects' className='w-full sm:h-full md:h-screen pb-12 bg-gray-300 dark:bg-[#0a192f] text-[#0a192f] dark:text-gray-200'>
+      <div className='max-w-[1000px] mx-auto p-4 pt-20 flex flex-col justify-center w-full h-full'>
+        <div className='pb-8 text-center'>
           <p className='text-4xl text-[#0a192f] dark:text-gray-200 font-bold inline border-b-4 border-violet-600'>Projects</p>
           <p className='text-[#0a192f] dark:text-gray-200 py-6'>Check out some of my recent work</p>
         </div>
@@ -64,7 +64,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 export default Projects

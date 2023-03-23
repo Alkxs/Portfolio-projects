@@ -7,7 +7,7 @@ import { useState, useEffect } from 'react'
 
   useEffect(() => {
     window.addEventListener('scroll', () => {
-      window.scrollY > 500 ? setUp(true) : setUp(false)
+      window.scrollY > 800 ? setUp(true) : setUp(false)
     })
   }, [])
 

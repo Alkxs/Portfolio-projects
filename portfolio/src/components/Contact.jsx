@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div name='contact' className='w-full h-full bg-gray-300 dark:bg-[#0a192f] text-[#0a192f] dark:text-gray-200  flex justify-center items-center p-4 pt-6'>
+    <section name='contact' className='w-full h-full bg-gray-300 dark:bg-[#0a192f] text-[#0a192f] dark:text-gray-200  flex justify-center items-center p-4 pt-6'>
       <form className='flex flex-col max-w-[600px] w-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 border-violet-600'>contact</p>
@@ -24,7 +24,7 @@ const Contact = () => {
           Let's Collaborate
         </button>
       </form>
-    </div>
+    </section>
   )
 }
 export default Contact

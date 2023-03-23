@@ -13,7 +13,7 @@ const Home = () => {
           <h2 className='text-3xl sm:text-4xl font-light text-gray-500 dark:text-gray-400'>
             <Typewriter
               options={{
-                strings: ['Front-End Developer.', 'Full-stack Developer'],
+                strings: ['Front-End Developer', 'Full-stack Developer'],
                 autoStart: true,
                 loop: true,
                 skipAddStyles: true,
