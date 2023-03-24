@@ -5,9 +5,9 @@ import Typewriter from 'typewriter-effect'
 const Home = () => {
   return (
     <>
-      <section name='home' className='bg-gray-300 dark:bg-[#0a192f] w-full h-screen'>
+      <section name='home' className='bg-gray-200 h-screen'>
         {/* Container */}
-        <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center items-center h-full gap-6 text-center'>
+        <div className='container'>
           <p className='text-purple-600 text-2xl tracking-wide'>Hi There, I am </p>
           <h1 className='text-4xl sm:text-7xl font-bold text-[#0a192f] dark:text-white'>Alex Lauri</h1>
           <h2 className='text-3xl sm:text-4xl font-light text-gray-500 dark:text-gray-400'>

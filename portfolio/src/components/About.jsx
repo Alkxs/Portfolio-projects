@@ -3,13 +3,9 @@ import profile from '../assets/profile.png'
 
 const About = ({}) => {
   return (
-    <section name='about' className='w-screen sm:h-full md:h-screen bg-gray-100 dark:bg-[#0a192f] text-[#0a192f] dark:text-gray-200 flex flex-col items-center justify-center'>
-      {/* Container */}
-      <div className='flex flex-col justify-start items-center mx-auto px-8  sm:space-y-8 md:space-y-28 max-w-4xl py-10 '>
-        <div className='w-full h-auto  text-center sm:pb-4 md:pb-0'>
-          <p className='text-4xl font-bold inline border-b-4 border-violet-600'>About</p>
-        </div>
-
+    <section name='about'>
+      <h2 className='title'>About</h2>
+      <div className='container'>
         <div className='max-w-4xl w-full flex flex-col md:flex-row justify-center items-center gap-4 px-6'>
           <div className='flex justify-center items-center sm:w-full md:w-1/2 '>
             <img className='rounded-2xl sm:w-60 md:w-3/4' src={profile}></img>

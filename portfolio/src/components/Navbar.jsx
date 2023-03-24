@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react'
 import {FaBars, FaTimes, FaGithub, FaLinkedin, FaTwitter} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
-// import {FiSun,FiMoon} from 'react-icons/fi'
 import {Link} from 'react-scroll'
 import Switcher from './Switcher'
 
@@ -30,13 +29,15 @@ useEffect(() => {
 const navBackground = scrollPosition > 800 ? 'bg-gray-300 dark:bg-[#0a192f]' : 'bg-transparent'
 
   return (
-    <div className={`${navBackground} text-[#0a192f] dark:text-gray-100 fixed w-full h-20 flex items-center px-8 justify-between`}>
+    <div className={`${navBackground} text-[#0a192f] dark:text-gray-100 fixed w-full h-20 flex items-center px-8 justify-between z-50`}>
       <div>
         <h1 className=' font-[Birthstone] tracking-wide text-4xl font-light text-violet-600'>{'<Alex Lauri />'}</h1>
         {/* <img src={logo} alt='Logo Image' /> */}
       </div>
       {/* darkModeToggleIcon */}
-      <Switcher className='fixed' />
+      <div className='md:fixed md:top-1/2 md:right-6 md:transform md:-translate-y-1/2'>
+        <Switcher />
+      </div>
       {/* Menu */}
       <ul className='hidden md:flex'>
         <li className='hover:text-violet-600'>
@@ -74,7 +75,7 @@ const navBackground = scrollPosition > 800 ? 'bg-gray-300 dark:bg-[#0a192f]' : '
       <ul
         className={
           showMobileMenu
-            ? 'absolute top-0 left-0 w-full h-screen bg-white-200 dark:bg-[#0a192f] flex flex-col justify-center items-center opacity-100'
+            ? 'absolute top-0 left-0 w-full h-screen bg-white-200 bg-gray-400 dark:bg-[#0a192f] flex flex-col justify-center items-center opacity-100'
             : 'hidden'
         }
       >

@@ -12,13 +12,9 @@ const Switcher = () => {
   }
 
   return (
-      <DarkModeSwitch 
-      className=''
-      checked={darkMode} 
-      onChange={toggleDarkMode} 
-      size={30} 
-      moonColor='black' 
-      sunColor='white' />
+    <div className='transform scale-75 md:scale-100'>
+      <DarkModeSwitch checked={darkMode} onChange={toggleDarkMode} size={40} moonColor='black' sunColor='white' />
+    </div>
   )
 }
 export default Switcher

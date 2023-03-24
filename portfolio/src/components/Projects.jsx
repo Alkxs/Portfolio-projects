@@ -1,19 +1,16 @@
-import project from '../assets/workImg.jpeg'
+import project from '../../public/WorkImg.jpeg'
 
 const Projects = () => {
   return (
-    <section name='projects' className='w-full sm:h-full md:h-screen pb-12 bg-gray-300 dark:bg-[#0a192f] text-[#0a192f] dark:text-gray-200'>
-      <div className='max-w-[1000px] mx-auto p-4 pt-20 flex flex-col justify-center w-full h-full'>
-        <div className='pb-8 text-center'>
-          <p className='text-4xl text-[#0a192f] dark:text-gray-200 font-bold inline border-b-4 border-violet-600'>Projects</p>
-          <p className='text-[#0a192f] dark:text-gray-200 py-6'>Check out some of my recent work</p>
-        </div>
+    <section name='projects' className='bg-gray-200'>
+      <h2 className='title'>Projects</h2>
+        <div className='container'>
         {/* Grid Container */}
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10'>
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${project})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div'
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto '
           >
             {/* Hover effects */}
             <div className='opacity-0 group-hover:opacity-100'>

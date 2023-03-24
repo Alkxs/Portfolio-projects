@@ -12,22 +12,22 @@
 
 @layer base {
   body {
-    @apply font-[Raleway]
+    @apply font-[Raleway] w-screen
   }
   li {
     @apply px-4 cursor-pointer
   }
   section {
-    @apply bg-gray-100 dark:bg-[#0a192f] text-[#0a192f] dark:text-gray-200 w-full h-screen py-20 flex justify-center items-center flex-col
+    @apply bg-gray-100 dark:bg-[#0a192f] text-[#0a192f] dark:text-gray-200 w-screen h-full py-20 flex justify-center items-center flex-col
   }
 }
 
 @layer components {
-  /* .container {
-    @apply 
-  } */
+  .container {
+    @apply w-full h-full max-w-3xl mx-auto text-center px-8  flex flex-col justify-center items-center space-y-8
+  }
   .title {
-    @apply text-4xl mb-8 font-bold  text-purple-600
+    @apply text-4xl inline font-bold border-b-4 border-violet-600 mb-20 
   }
   .skills-container {
     @apply grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4
