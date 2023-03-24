@@ -6,9 +6,9 @@ const About = ({}) => {
     <section name='about'>
       <h2 className='title'>About</h2>
       <div className='container'>
-        <div className='max-w-4xl w-full flex flex-col md:flex-row justify-center items-center gap-4 px-6'>
+        <div className='w-full flex flex-col md:flex-row justify-center items-center gap-4 px-6'>
           <div className='flex justify-center items-center sm:w-full md:w-1/2 '>
-            <img className='rounded-2xl sm:w-60 md:w-3/4' src={profile}></img>
+            <img className='rounded-2xl w-60 md:w-3/4' src={profile}></img>
           </div>
           <div className='sm:w-3/4 md:w-1/2 max-h-screen grid grid-rows-8 md:gap-4'>
             <div>I am Alex Lauri</div>

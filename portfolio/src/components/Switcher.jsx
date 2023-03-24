@@ -1,10 +1,10 @@
-import {useState} from 'react'
-import useToggleDark from '../hooks/useToggleDark'
 import {DarkModeSwitch} from 'react-toggle-dark-mode'
+import { useContext } from 'react';
+import ThemeContext from '../contexts/ThemeContext';
 
 const Switcher = () => {
-  const [colorTheme, setTheme] = useToggleDark()
-  const [darkMode, setDarkMode] = useState(colorTheme === 'dark' ? true : false)
+   const { theme, toggleTheme } = useContext(ThemeContext)
+   const darkMode = theme === 'light'
 
   const toggleDarkMode = (checked) => {
     setTheme(colorTheme)
@@ -13,7 +13,12 @@ const Switcher = () => {
 
   return (
     <div className='transform scale-75 md:scale-100'>
-      <DarkModeSwitch checked={darkMode} onChange={toggleDarkMode} size={40} moonColor='black' sunColor='white' />
+      <DarkModeSwitch 
+      checked={darkMode} 
+      onChange={toggleTheme} 
+      size={30} 
+      moonColor='black' 
+      sunColor='white' />
     </div>
   )
 }

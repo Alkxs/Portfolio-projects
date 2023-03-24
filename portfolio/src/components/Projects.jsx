@@ -6,7 +6,7 @@ const Projects = () => {
       <h2 className='title'>Projects</h2>
         <div className='container'>
         {/* Grid Container */}
-        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10'>
+        <div className='w-full h-60 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10'>
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${project})` }}

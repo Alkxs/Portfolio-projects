@@ -6,11 +6,12 @@ import Skills from './components/Skills'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import ScrollTop from './components/ScrollTop'
+import { ThemeProvider } from './contexts/ThemeContext'
 
 function App() {
 
   return (
-    <>
+    <ThemeProvider>
       <Navbar />
       <Home />
       <About />
@@ -19,7 +20,7 @@ function App() {
       <Contact />
       <ScrollTop />
       <Footer />
-    </>
+    </ThemeProvider>
   )
 }
 
