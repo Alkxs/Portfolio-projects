@@ -29,7 +29,7 @@ useEffect(() => {
 const navBackground = scrollPosition > 800 ? 'bg-gray-300 dark:bg-[#0a192f]' : 'bg-transparent'
 
   return (
-    <div className={`${navBackground} text-[#0a192f] dark:text-gray-100 fixed w-full h-20 flex items-center px-8 justify-between z-50`}>
+    <div className={`${navBackground} text-[#0a192f] dark:text-gray-200 fixed w-full h-20 flex items-center px-8 justify-between z-50`}>
       <div>
         <h1 className=' font-[Birthstone] tracking-wide text-4xl font-light text-violet-600'>{'<Alex Lauri />'}</h1>
         {/* <img src={logo} alt='Logo Image' /> */}
