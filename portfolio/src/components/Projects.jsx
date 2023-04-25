@@ -110,7 +110,10 @@ const Projects = () => {
                 <SiJavascript size={30} className='hover:scale-125 duration-300 text-[#F7DF1E]' />
                 <SiReact size={30} className='hover:scale-125 duration-300 text-[#61DAFB]' />
               </div>
-              <p className='text-lg'>A customizable web app that allows users to create and track their workouts and exercises.</p>
+              <p className='text-lg'>
+                An engaging quiz app offering a
+                personalized knowledge-testing challenge
+              </p>
 
               <div className='buttons-container space-y-8'>
                 <div className='flex w-full items-center justify-center'>
