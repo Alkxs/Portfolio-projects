@@ -1,7 +1,7 @@
 import profile from '../assets/profile.png'
 
 
-const About = ({}) => {
+const About = () => {
   return (
     <section name='about'>
       <h2 className='title'>About</h2>

@@ -1,61 +1,138 @@
-import project from '../../public/WorkImg.jpeg'
+import project1 from '../../public/project-images/therafit.png'
+import project2 from '../../public/project-images/portfolio.png'
+import project3 from '../../public/project-images/quizzle.png'
+import { Link } from 'react-scroll'
+import { SiHtml5, SiCss3, SiJavascript, SiReact, SiNodedotjs, SiExpress, SiMongodb, SiTailwindcss } from 'react-icons/si'
 
 const Projects = () => {
   return (
     <section name='projects' className='bg-gray-200'>
       <h2 className='title'>Projects</h2>
-        <div className='container'>
-        
-        <div className='w-full max-w-4xl flex flex-col justify-center items-center gap-10'>
-          
-          <div
-            style={{ backgroundImage: `url(${project})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto h-full'
-          >
-            {/* Hover effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>Coming Soon</span>
-              <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                </a>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                </a>
+      <div className='container'>
+        <div className='w-full max-w-6xl flex flex-col justify-center items-center gap-20 '>
+          {/* Project 1 */}
+          <div className='project-card flex justify-center items-center mx-auto h-[500px] transition-shadow duration-300 cursor-pointer bg-white max-w-6xl border-2 rounded-2xl shadow-2xl hover:shadow-2xl hover:shadow-black dark:border-cyan-500 '>
+            <div className='flex justify-center items-center h-full w-2/3'>
+              <img className='rounded-l-2xl h-full w-full object-cover border border-grey-100' src={project1}></img>
+            </div>
+
+            <div className='w-1/3 flex flex-col justify-around items-center h-full px-4'>
+              <h3 className='text-4xl font-bold mb-2'>TheraFit</h3>
+              <div className='flex justify-center items-center gap-4'>
+                <SiHtml5 size={30} className='hover:scale-125 duration-300 text-[#E44D26]' />
+                <SiCss3 size={30} className='hover:scale-125 duration-300 text-[#1572B6]' />
+                <SiJavascript size={30} className='hover:scale-125 duration-300 text-[#F7DF1E]' />
+                <SiReact size={30} className='hover:scale-125 duration-300 text-[#61DAFB]' />
+                <SiNodedotjs size={30} className='hover:scale-125 duration-300 text-[#68A063]' />
+                <SiExpress size={30} className='hover:scale-125 duration-300 text-[#000000 ]' />
+                <SiMongodb size={30} className='hover:scale-125 duration-300 text-[#4DB33D]' />
+              </div>
+              <p className='text-lg'>A customizable web app that allows users to create and track their workouts and exercises.</p>
+
+              <div className='buttons-container space-y-8'>
+                <div className='flex w-full items-center justify-center'>
+                  <Link href='https://github.com/Alkxs/TheraFit' target='_blank'>
+                    <button className='text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-white border-2 px-3 py-2 hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
+                      Source Code
+                    </button>
+                  </Link>
+                </div>
+
+                <div className='flex justify-center items-center w-full gap-10 px-20'>
+                  <Link href='https://demo.com/' target='_blank' className='flex-grow flex-1'>
+                    <button className='text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-white border-2 px-3 py-2  hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
+                      Demo
+                    </button>
+                  </Link>
+                  <Link href='https://demo.com/' target='_blank' className='flex-grow flex-1'>
+                    <button className='text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-white border-2 px-4 py-2 hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
+                      Live
+                    </button>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
-          <div
-            style={{ backgroundImage: `url(${project})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>Coming Soon</span>
-              <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                </a>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                </a>
+
+          {/* Project 2 */}
+          <div className='project-card flex justify-center items-center mx-auto h-[500px] transition-shadow duration-300 cursor-pointer bg-white max-w-6xl rounded-2xl shadow-2xl hover:shadow-2xl hover:shadow-black dark:border-cyan-500 '>
+            <div className='flex justify-center items-center h-full w-2/3'>
+              <img className='rounded-l-2xl  h-full w-full object-fill' src={project2}></img>
+            </div>
+
+            <div className='w-1/3 flex flex-col justify-around items-center h-full px-4'>
+              <h3 className='text-4xl font-bold mb-2'> Portfolio</h3>
+              <div className='flex justify-center items-center gap-4'>
+                <SiHtml5 size={30} className='hover:scale-125 duration-300 text-[#E44D26]' />
+                <SiCss3 size={30} className='hover:scale-125 duration-300 text-[#1572B6]' />
+                <SiTailwindcss size={30} className='hover:scale-125 duration-300 text-[#06B6D4]' />
+                <SiJavascript size={30} className='hover:scale-125 duration-300 text-[#F7DF1E]' />
+                <SiReact size={30} className='hover:scale-125 duration-300 text-[#61DAFB]' />
+              </div>
+              <p className='text-lg'>My portfolio project built from scratch using the latest technologies and modern libraries.</p>
+
+              <div className='buttons-container space-y-8'>
+                <div className='flex w-full items-center justify-center'>
+                  <Link href='https://github.com/Alkxs/Portfolio-projects/tree/main/portfolio' target='_blank'>
+                    <button className='text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-white border-2 px-3 py-2 hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
+                      Source Code
+                    </button>
+                  </Link>
+                </div>
+
+                <div className='flex justify-center items-center w-full gap-10 px-20'>
+                  <Link href='https://demo.com/' target='_blank' className='flex-grow flex-1'>
+                    <button className='text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-white border-2 px-3 py-2  hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
+                      Demo
+                    </button>
+                  </Link>
+                  <Link href='https://demo.com/' target='_blank' className='flex-grow flex-1'>
+                    <button className='text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-white border-2 px-4 py-2 hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
+                      Live
+                    </button>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
-          <div
-            style={{ backgroundImage: `url(${project})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>Coming Soon</span>
-              <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                </a>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                </a>
+
+          {/* Project 3 */}
+          <div className='project-card flex justify-center items-center mx-auto h-[500px] transition-shadow duration-300 cursor-pointer bg-white max-w-6xl rounded-2xl shadow-2xl hover:shadow-2xl hover:shadow-black dark:border-cyan-500 '>
+            <div className='flex justify-center items-center h-full w-2/3'>
+              <img className='rounded-l-2xl h-full w-full object-cover border border-grey-100' src={project3}></img>
+            </div>
+
+            <div className='w-1/3 flex flex-col justify-around items-center h-full px-4'>
+              <h3 className='text-4xl font-bold mb-2'>Quizzle</h3>
+              <div className='flex justify-center items-center gap-4'>
+                <SiHtml5 size={30} className='hover:scale-125 duration-300 text-[#E44D26]' />
+                <SiCss3 size={30} className='hover:scale-125 duration-300 text-[#1572B6]' />
+                <SiJavascript size={30} className='hover:scale-125 duration-300 text-[#F7DF1E]' />
+                <SiReact size={30} className='hover:scale-125 duration-300 text-[#61DAFB]' />
+              </div>
+              <p className='text-lg'>A customizable web app that allows users to create and track their workouts and exercises.</p>
+
+              <div className='buttons-container space-y-8'>
+                <div className='flex w-full items-center justify-center'>
+                  <Link href='https://github.com/Alkxs/TheraFit' target='_blank'>
+                    <button className='text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-white border-2 px-3 py-2 hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
+                      Source Code
+                    </button>
+                  </Link>
+                </div>
+
+                <div className='flex justify-center items-center w-full gap-10 px-20'>
+                  <Link href='https://demo.com/' target='_blank' className='flex-grow flex-1'>
+                    <button className='text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-white border-2 px-3 py-2  hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
+                      Demo
+                    </button>
+                  </Link>
+                  <Link href='https://demo.com/' target='_blank' className='flex-grow flex-1'>
+                    <button className='text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-white border-2 px-4 py-2 hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
+                      Live
+                    </button>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
