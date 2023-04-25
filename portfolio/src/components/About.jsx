@@ -6,20 +6,39 @@ const About = ({}) => {
     <section name='about'>
       <h2 className='title'>About</h2>
       <div className='container'>
-        <div className='w-full flex flex-col md:flex-row justify-center items-center gap-6 px-6 max-w-5xl'>
-          <div className='flex justify-center items-center sm:w-full md:w-1/3 '>
-            <img className='rounded-2xl w-60 md:w-full' src={profile}></img>
+        <div className='w-full flex flex-col md:flex-row justify-center items-center gap-10 p-10 py-20 max-w-6xl border-2 rounded-2xl shadow-lg dark:border-cyan-500 '>
+          <div className='flex justify-center items-center sm:w-full md:w-2/5'>
+            <img className='rounded-2xl h-full md:w-full' src={profile}></img>
           </div>
-          <div className='sm:w-3/4 md:w-2/3 max-h-screen flex flex-col justify-start items-center md:gap-4'>
-            <div className='w-full text-left'>👋 Hi! I'm Alex, a Full Stack Web Developer from Italy 🇮🇹</div>
-            <div className='w-full text-left'>
-              🌐 Experienced in the MERN stack, with a strong focus on Front End Development 🎨
+          <div className='sm:w-3/4 md:w-3/5 flex flex-col justify-start items-center pl-10 md:gap-8'>
+            <div className='w-full text-left flex justify-start'>
+              <div>👋</div>
+              <div className='pl-4 font-normal'>Hi! I am Alex, a Full Stack Web Developer from Italy </div>
             </div>
-            <div className='w-full text-left'>🏔️ Currently living in Zurich, embracing new challenges and eager to contribute to the local tech scene 🌟 </div>
-            <div className='w-full text-left'>👨‍💻 Passionate about learning new technologies and keeping up with industry trends 🚀</div>
-            <div className='w-full text-left'>🖥️ Proudly designed and developed my own portfolio website from scratch 🔧</div>
-            <div className='w-full text-left'>🌍 Skilled at working with diverse teams in multicultural environments 🤝</div>
-            <div className='w-full text-left'> 💡 Excited to bring innovative solutions to your web development needs! 💫</div>
+            <div className='w-full text-left flex justify-start'>
+              <div>🌐</div>
+              <div className='pl-4 font-normal'>Proficient in the MERN stack, with a focus on Front End Development</div>
+            </div>
+            <div className='w-full text-left flex justify-start'>
+              <div>🏔️</div>
+              <div className='pl-4 font-normal'>Currently living in Zurich, eager to contribute to the local tech scene</div>
+            </div>
+            <div className='w-full text-left flex justify-start'>
+              <div>👨‍💻</div>
+              <div className='pl-4 font-normal'>Passionate about technologies and keeping up with industry trends</div>
+            </div>
+            <div className='w-full text-left flex justify-start'>
+              <div>🖥️</div>
+              <div className='pl-4 font-normal'>Proudly designed and developed my own portfolio from scratch</div>
+            </div>
+            <div className='w-full text-left flex justify-start'>
+              <div>🌍</div>
+              <div className='pl-4 font-normal'>Skilled at working with diverse teams in multicultural environments</div>
+            </div>
+            <div className='w-full text-left flex justify-start'>
+              <div>💡</div>
+              <div className='pl-4 font-normal'>Excited to bring creative solutions to your web development needs</div>
+            </div>
           </div>
         </div>
       </div>

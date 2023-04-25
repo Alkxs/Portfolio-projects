@@ -15,10 +15,10 @@ const Home = () => {
       <section name='home' className='bg-transparent dark:bg-transparent h-screen'>
         {isDarkMode ? <ParticlesBackgroundDark /> : <ParticlesBackgroundLight />}
 
-        <div className='container gap-6 mt-10'>
-          <p className='text-cyan-500 text-4xl tracking-wide'>Hey, I am </p>
+        <div className='container mt-10'>
+            <p className='text-cyan-500 text-2xl tracking-wide font-semibold'>Hey, I am </p>
           <h1 className='text-4xl sm:text-7xl font-bold tracking-widest text-[#0a192f] dark:text-white z-0'>Alex Lauri</h1>
-          <h2 className='text-3xl sm:text-4xl font-light text-gray-500 dark:text-gray-300'>
+          <h2 className='text-3xl sm:text-4xl font-normal text-gray-500 dark:text-gray-300'>
             <Typewriter
               options={{
                 strings: ['Web Developer', 'Front-End Developer', 'Full-stack Developer'],

@@ -5,12 +5,12 @@ const Projects = () => {
     <section name='projects' className='bg-gray-200'>
       <h2 className='title'>Projects</h2>
         <div className='container'>
-        {/* Grid Container */}
-        <div className='w-full h-60 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10'>
-          {/* Grid Item */}
+        
+        <div className='w-full max-w-4xl flex flex-col justify-center items-center gap-10'>
+          
           <div
             style={{ backgroundImage: `url(${project})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto '
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto h-full'
           >
             {/* Hover effects */}
             <div className='opacity-0 group-hover:opacity-100'>

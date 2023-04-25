@@ -29,9 +29,9 @@ useEffect(() => {
 const navBackground = scrollPosition > 870 ? 'bg-gray-200 dark:bg-[#0a192f]' : 'bg-transparent'
 
   return (
-    <div className={`${navBackground} text-[#0a192f] dark:text-gray-200 fixed w-full h-20 flex items-center px-20 justify-between z-50`}>
+    <div className={`${navBackground} text-[#0a192f] dark:text-gray-200 fixed w-full h-24 flex items-center px-20 justify-between z-50`}>
       <div>
-        <h1 className=' font-[Birthstone] tracking-wide text-4xl font-light text-cyan-500'>{'<Alex Lauri />'}</h1>
+        <h1 className=' font-[Birthstone] tracking-wide text-5xl font-light text-cyan-500'>{'<Alex Lauri />'}</h1>
         {/* <img src={logo} alt='Logo Image' /> */}
       </div>
       {/* darkModeToggleIcon */}
@@ -40,33 +40,43 @@ const navBackground = scrollPosition > 870 ? 'bg-gray-200 dark:bg-[#0a192f]' : '
       </div>
       {/* Menu */}
       <ul className='hidden md:flex'>
-        <li className='hover:text-cyan-500'>
+        <li className='hover:text-cyan-500 text-lg'>
           <Link to='home' smooth={true} duration={500} className='flex m-1'>
-            <FaHome size={20} className='mr-2' />
+            <div className='flex justify-center items-center'>
+              <FaHome size={20} className='mr-2' />
+            </div>
             Home
           </Link>
         </li>
-        <li className='hover:text-cyan-500'>
+        <li className='hover:text-cyan-500 text-lg'>
           <Link to='about' smooth={true} duration={500} className='flex m-1'>
-            <FaRegUser size={20} className='mr-2' />
+            <div className='flex justify-center items-center'>
+              <FaRegUser size={20} className='mr-2' />
+            </div>
             About
           </Link>
         </li>
-        <li className='hover:text-cyan-500'>
+        <li className='hover:text-cyan-500 text-lg'>
           <Link to='projects' smooth={true} duration={500} className='flex m-1'>
-            <FaImage size={20} className='mr-2' />
+            <div className='flex justify-center items-center'>
+              <FaImage size={20} className='mr-2' />
+            </div>
             Projects
           </Link>
         </li>
-        <li className='hover:text-cyan-500'>
+        <li className='hover:text-cyan-500 text-lg'>
           <Link to='skills' smooth={true} duration={500} className='flex m-1'>
-            <FaClipboardList size={20} className='mr-2' />
+            <div className='flex justify-center items-center'>
+              <FaClipboardList size={20} className='mr-2' />
+            </div>
             Skills
           </Link>
         </li>
-        <li className='hover:text-cyan-500'>
+        <li className='hover:text-cyan-500 text-lg'>
           <Link to='contact' smooth={true} duration={500} className='flex m-1'>
-            <FaRegEnvelope size={20} className='mr-2' />
+            <div className='flex justify-center items-center'>
+              <FaRegEnvelope size={20} className='mr-2' />
+            </div>
             Contact
           </Link>
         </li>
