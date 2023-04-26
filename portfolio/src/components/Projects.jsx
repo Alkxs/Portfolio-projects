@@ -6,17 +6,17 @@ import { SiHtml5, SiCss3, SiJavascript, SiReact, SiNodedotjs, SiExpress, SiMongo
 
 const Projects = () => {
   return (
-    <section name='projects' className='bg-gray-200'>
+    <section name='projects'>
       <h2 className='title'>Projects</h2>
       <div className='container'>
-        <div className='w-full max-w-6xl flex flex-col justify-center items-center gap-20 '>
+        <div className='w-full max-w-6xl flex flex-col justify-center items-center gap-20'>
           {/* Project 1 */}
-          <div className='project-card flex justify-center items-center mx-auto h-[500px] transition-shadow duration-300 cursor-pointer bg-white max-w-6xl border-2 rounded-2xl shadow-2xl hover:shadow-2xl hover:shadow-black dark:border-cyan-500 '>
-            <div className='flex justify-center items-center h-full w-2/3'>
-              <img className='rounded-l-2xl h-full w-full object-cover border border-grey-100' src={project1}></img>
+          <div className='project-card flex justify-center items-center mx-auto h-[500px] transition-shadow duration-300 cursor-pointer bg-white max-w-6xl rounded-2xl shadow-2xl hover:shadow-2xl hover:shadow-black dark:hover:shadow-white'>
+            <div className='flex justify-center items-center h-full w-2/3 rounded-l-2xl'>
+              <img className='rounded-l-2xl h-full w-full object-cover border-r border-grey-100 dark:border dark:border-cyan-500' src={project1}></img>
             </div>
 
-            <div className='w-1/3 flex flex-col justify-around items-center h-full px-4'>
+            <div className='w-1/3 dark:text-gray-200 dark:bg-dark-main flex flex-col justify-around items-center h-full px-4 rounded-r-2xl dark:border dark:border-cyan-500'>
               <h3 className='text-4xl font-bold mb-2'>TheraFit</h3>
               <div className='flex justify-center items-center gap-4'>
                 <SiHtml5 size={30} className='hover:scale-125 duration-300 text-[#E44D26]' />
@@ -55,12 +55,12 @@ const Projects = () => {
           </div>
 
           {/* Project 2 */}
-          <div className='project-card flex justify-center items-center mx-auto h-[500px] transition-shadow duration-300 cursor-pointer bg-white max-w-6xl rounded-2xl shadow-2xl hover:shadow-2xl hover:shadow-black dark:border-cyan-500 '>
-            <div className='flex justify-center items-center h-full w-2/3'>
-              <img className='rounded-l-2xl  h-full w-full object-fill' src={project2}></img>
+          <div className='project-card flex justify-center items-center mx-auto h-[500px] transition-shadow duration-300 rounded-2xl cursor-pointer bg-white max-w-6xl shadow-2xl hover:shadow-2xl hover:shadow-black dark:hover:shadow-white'>
+            <div className=' w-2/3 flex justify-center items-center h-full rounded-l-2xl'>
+              <img className='h-full w-full object-fill rounded-l-2xl dark:border dark:border-cyan-500' src={project2}></img>
             </div>
 
-            <div className='w-1/3 flex flex-col justify-around items-center h-full px-4'>
+            <div className='w-1/3 dark:text-gray-200 dark:bg-dark-main flex flex-col justify-around items-center h-full px-4 dark:border dark:border-cyan-500 rounded-r-2xl'>
               <h3 className='text-4xl font-bold mb-2'> Portfolio</h3>
               <div className='flex justify-center items-center gap-4'>
                 <SiHtml5 size={30} className='hover:scale-125 duration-300 text-[#E44D26]' />
@@ -97,12 +97,12 @@ const Projects = () => {
           </div>
 
           {/* Project 3 */}
-          <div className='project-card flex justify-center items-center mx-auto h-[500px] transition-shadow duration-300 cursor-pointer bg-white max-w-6xl rounded-2xl shadow-2xl hover:shadow-2xl hover:shadow-black dark:border-cyan-500 '>
-            <div className='flex justify-center items-center h-full w-2/3'>
-              <img className='rounded-l-2xl h-full w-full object-cover border border-grey-100' src={project3}></img>
+          <div className='project-card flex justify-center items-center mx-auto h-[500px] transition-shadow duration-300 cursor-pointer bg-white max-w-6xl rounded-2xl shadow-2xl hover:shadow-2xl hover:shadow-black dark:hover:shadow-white'>
+            <div className='flex justify-center items-center h-full w-2/3 rounded-l-2xl'>
+              <img className='rounded-l-2xl h-full w-full object-cover border-r border-grey-100 dark:border dark:border-cyan-500' src={project3}></img>
             </div>
 
-            <div className='w-1/3 flex flex-col justify-around items-center h-full px-4'>
+            <div className='w-1/3 dark:text-gray-200 dark:bg-dark-main flex flex-col justify-around items-center h-full px-4 rounded-r-2xl dark:border dark:border-cyan-500'>
               <h3 className='text-4xl font-bold mb-2'>Quizzle</h3>
               <div className='flex justify-center items-center gap-4'>
                 <SiHtml5 size={30} className='hover:scale-125 duration-300 text-[#E44D26]' />
@@ -110,10 +110,7 @@ const Projects = () => {
                 <SiJavascript size={30} className='hover:scale-125 duration-300 text-[#F7DF1E]' />
                 <SiReact size={30} className='hover:scale-125 duration-300 text-[#61DAFB]' />
               </div>
-              <p className='text-lg'>
-                An engaging quiz app offering a
-                personalized knowledge-testing challenge
-              </p>
+              <p className='text-lg'>An engaging quiz app offering a personalized knowledge-testing challenge</p>
 
               <div className='buttons-container space-y-8'>
                 <div className='flex w-full items-center justify-center'>

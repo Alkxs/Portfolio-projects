@@ -26,7 +26,7 @@ useEffect(() => {
     window.removeEventListener('scroll', handleScroll)
   }
 }, [])
-const navBackground = scrollPosition > 870 ? 'bg-gray-200 dark:bg-[#0a192f]' : 'bg-transparent'
+const navBackground = scrollPosition > 600 ? 'bg-white dark:bg-[#0a192f]' : 'bg-transparent'
 
   return (
     <div className={`${navBackground} text-[#0a192f] dark:text-gray-200 fixed w-full h-24 flex items-center px-20 justify-between z-50`}>
@@ -35,7 +35,7 @@ const navBackground = scrollPosition > 870 ? 'bg-gray-200 dark:bg-[#0a192f]' : '
         {/* <img src={logo} alt='Logo Image' /> */}
       </div>
       {/* darkModeToggleIcon */}
-      <div className='md:fixed md:top-1/2 md:right-6 md:transform md:-translate-y-1/2'>
+      <div className='md:fixed md:top-1/2 md:right-10 md:transform md:-translate-y-1/2'>
         <Switcher />
       </div>
       {/* Menu */}

@@ -6,11 +6,11 @@ const About = () => {
     <section name='about'>
       <h2 className='title'>About</h2>
       <div className='container'>
-        <div className='w-full flex flex-col md:flex-row justify-center items-center gap-10 p-10 py-20 max-w-6xl border-2 rounded-2xl shadow-lg dark:border-cyan-500 '>
+        <div className='about-card bg-white w-full flex flex-col md:flex-row justify-center items-center gap-10 p-10 py-16 max-w-6xl border rounded-2xl shadow-lg hover:shadow-2xl hover:shadow-black dark:border-cyan-500 dark:bg-dark-main dark:hover:shadow-white  '>
           <div className='flex justify-center items-center sm:w-full md:w-2/5'>
             <img className='rounded-2xl h-full md:w-full' src={profile}></img>
           </div>
-          <div className='sm:w-3/4 md:w-3/5 flex flex-col justify-start items-center pl-10 md:gap-8'>
+          <div className='sm:w-3/4 md:w-3/5 dark:text-gray-200 flex flex-col justify-start items-center pl-10 md:gap-8'>
             <div className='w-full text-left flex justify-start'>
               <div>👋</div>
               <div className='pl-4 font-normal'>Hi! I am Alex, a Full Stack Web Developer from Italy </div>

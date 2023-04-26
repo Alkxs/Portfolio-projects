@@ -4,9 +4,15 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
-      screens:{
-        "sm":"480px"
-      }
+      backgroundColor: {
+        'dark-main': '#0a192f',
+      },
+      screens: {
+        sm: '480px',
+      },
+      textColor: {
+        'dark-main': '#0a192f',
+      },
     },
   },
   plugins: [],
