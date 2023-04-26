@@ -6,11 +6,11 @@ const About = () => {
     <section name='about'>
       <h2 className='title'>About</h2>
       <div className='container'>
-        <div className='about-card bg-white w-full flex flex-col md:flex-row justify-center items-center gap-10 p-10 py-16 max-w-6xl border rounded-2xl shadow-lg hover:shadow-2xl hover:shadow-black dark:border-cyan-500 dark:bg-dark-main dark:hover:shadow-white  '>
-          <div className='flex justify-center items-center sm:w-full md:w-2/5'>
-            <img className='rounded-2xl h-full md:w-full' src={profile}></img>
+        <div className='about-card bg-white w-full flex flex-col lg:flex-row justify-center items-center py-16 gap-12 xl:gap-10 lg:p-10 xl:py-16 sm:max-w-md md:max-w-lg lg:max-w-4xl xl:max-w-6xl border rounded-2xl shadow-lg hover:shadow-2xl hover:shadow-black dark:border-cyan-500 dark:bg-dark-main dark:hover:shadow-white  '>
+          <div className='flex justify-center items-center lg:w-2/5'>
+            <img className='rounded-2xl h-full w-4/5 lg:w-full' src={profile}></img>
           </div>
-          <div className='sm:w-3/4 md:w-3/5 dark:text-gray-200 flex flex-col justify-start items-center pl-10 md:gap-8'>
+          <div className='lg:w-3/5 w-full dark:text-gray-200 flex flex-col justify-start items-center px-12 xl:px-0 xl:pl-10 md:gap-6 xl:gap-8'>
             <div className='w-full text-left flex justify-start'>
               <div>👋</div>
               <div className='pl-4 font-normal'>Hi! I am Alex, a Full Stack Web Developer from Italy </div>
