@@ -1,7 +1,7 @@
 import project1 from '../../public/project-images/therafit.png'
 import project2 from '../../public/project-images/portfolio.png'
 import project3 from '../../public/project-images/quizzle.png'
-import { Link } from 'react-scroll'
+import { a } from 'react-scroll'
 import { SiHtml5, SiCss3, SiJavascript, SiReact, SiNodedotjs, SiExpress, SiMongodb, SiTailwindcss } from 'react-icons/si'
 
 const Projects = () => {
@@ -31,24 +31,24 @@ const Projects = () => {
 
               <div className='buttons-container space-y-8'>
                 <div className='flex w-full items-center justify-center'>
-                  <Link href='https://github.com/Alkxs/TheraFit' target='_blank'>
+                  <a href='https://github.com/Alkxs/TheraFit' target='_blank'>
                     <button className='text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-white border-2 px-3 py-2 hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
                       Source Code
                     </button>
-                  </Link>
+                  </a>
                 </div>
 
                 <div className='flex justify-center items-center w-full gap-10 px-20'>
-                  <Link href='https://demo.com/' target='_blank' className='flex-grow flex-1'>
+                  <a href='https://demo.com/' target='_blank' className='flex-grow flex-1'>
                     <button className='text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-white border-2 px-3 py-2  hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
                       Demo
                     </button>
-                  </Link>
-                  <Link href='https://demo.com/' target='_blank' className='flex-grow flex-1'>
+                  </a>
+                  <a href='https://demo.com/' target='_blank' className='flex-grow flex-1'>
                     <button className='text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-white border-2 px-4 py-2 hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
                       Live
                     </button>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
@@ -73,24 +73,24 @@ const Projects = () => {
 
               <div className='buttons-container space-y-8'>
                 <div className='flex w-full items-center justify-center'>
-                  <Link href='https://github.com/Alkxs/Portfolio-projects/tree/main/portfolio' target='_blank'>
+                  <a href='https://github.com/Alkxs/Portfolio-projects/tree/main/portfolio' target='_blank'>
                     <button className='text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-white border-2 px-3 py-2 hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
                       Source Code
                     </button>
-                  </Link>
+                  </a>
                 </div>
 
                 <div className='flex justify-center items-center w-full gap-10 px-20'>
-                  <Link href='https://demo.com/' target='_blank' className='flex-grow flex-1'>
+                  <a href='https://demo.com/' target='_blank' className='flex-grow flex-1'>
                     <button className='text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-white border-2 px-3 py-2  hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
                       Demo
                     </button>
-                  </Link>
-                  <Link href='https://demo.com/' target='_blank' className='flex-grow flex-1'>
+                  </a>
+                  <a href='https://demo.com/' target='_blank' className='flex-grow flex-1'>
                     <button className='text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-white border-2 px-4 py-2 hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
                       Live
                     </button>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
@@ -114,24 +114,24 @@ const Projects = () => {
 
               <div className='buttons-container space-y-8'>
                 <div className='flex w-full items-center justify-center'>
-                  <Link href='https://github.com/Alkxs/TheraFit' target='_blank'>
+                  <a href='https://github.com/Alkxs/TheraFit' target='_blank'>
                     <button className='text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-white border-2 px-3 py-2 hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
                       Source Code
                     </button>
-                  </Link>
+                  </a>
                 </div>
 
                 <div className='flex justify-center items-center w-full gap-10 px-20'>
-                  <Link href='https://demo.com/' target='_blank' className='flex-grow flex-1'>
+                  <a href='https://demo.com/' target='_blank' className='flex-grow flex-1'>
                     <button className='text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-white border-2 px-3 py-2  hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
                       Demo
                     </button>
-                  </Link>
-                  <Link href='https://demo.com/' target='_blank' className='flex-grow flex-1'>
+                  </a>
+                  <a href='https://demo.com/' target='_blank' className='flex-grow flex-1'>
                     <button className='text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-white border-2 px-4 py-2 hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
                       Live
                     </button>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>

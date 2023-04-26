@@ -1,19 +1,15 @@
-import { useContext} from 'react'
+
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { Link } from 'react-scroll'
 import Typewriter from 'typewriter-effect'
-import ParticlesBackgroundDark from './ParticlesDark'
-import ParticlesBackgroundLight from './ParticlesLight'
-import ThemeContext from '../contexts/ThemeContext'
+
 
 const Home = () => {
-  const { theme } = useContext(ThemeContext)
-  const isDarkMode = theme === 'dark'
+  
 
   return (
     <>
       <section name='home' className='bg-transparent dark:bg-transparent h-screen'>
-        {isDarkMode ? <ParticlesBackgroundDark /> : <ParticlesBackgroundLight />}
 
         <div className='container mt-10'>
             <p className='text-cyan-500 text-2xl tracking-wide font-semibold'>Hey, I am </p>

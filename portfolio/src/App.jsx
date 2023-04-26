@@ -6,12 +6,20 @@ import Skills from './components/Skills'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import ScrollTop from './components/ScrollTop'
-import { ThemeProvider } from './contexts/ThemeContext'
+
+import ParticlesBackgroundDark from './components/ParticlesDark'
+import ParticlesBackgroundLight from './components/ParticlesLight'
+import ThemeContext from './contexts/ThemeContext'
+import { useContext } from 'react'
 
 function App() {
 
+  const { theme } = useContext(ThemeContext)
+  const isDarkMode = theme === 'dark'
+
   return (
-    <ThemeProvider>
+    <>
+      {isDarkMode ? <ParticlesBackgroundDark /> : <ParticlesBackgroundLight />}
       <Navbar />
       <Home />
       <About />
@@ -20,7 +28,7 @@ function App() {
       <Contact />
       <ScrollTop />
       <Footer />
-    </ThemeProvider>
+    </>
   )
 }
 

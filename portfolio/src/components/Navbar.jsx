@@ -29,17 +29,17 @@ useEffect(() => {
 const navBackground = scrollPosition > 600 ? 'bg-white dark:bg-[#0a192f]' : 'bg-transparent'
 
   return (
-    <div className={`${navBackground} text-[#0a192f] dark:text-gray-200 fixed w-full h-24 flex items-center px-20 justify-between z-50`}>
+    <div className={`${navBackground} text-[#0a192f] dark:text-gray-200 fixed w-full h-24 flex items-center px-12 md:px-20 justify-between z-50`}>
       <div>
         <h1 className=' font-[Birthstone] tracking-wide text-5xl font-light text-cyan-500'>{'<Alex Lauri />'}</h1>
         {/* <img src={logo} alt='Logo Image' /> */}
       </div>
       {/* darkModeToggleIcon */}
-      <div className='md:fixed md:top-1/2 md:right-10 md:transform md:-translate-y-1/2'>
+      <div className='lg:fixed lg:top-1/2 lg:right-10 lg:transform lg:-translate-y-1/2'>
         <Switcher />
       </div>
       {/* Menu */}
-      <ul className='hidden md:flex'>
+      <ul className='hidden lg:flex'>
         <li className='hover:text-cyan-500 text-lg'>
           <Link to='home' smooth={true} duration={500} className='flex m-1'>
             <div className='flex justify-center items-center'>
@@ -83,7 +83,7 @@ const navBackground = scrollPosition > 600 ? 'bg-white dark:bg-[#0a192f]' : 'bg-
       </ul>
 
       {/* Hamburger */}
-      <div className='md:hidden cursor-pointer z-10' onClick={handleMobileMenuToggle}>
+      <div className='lg:hidden cursor-pointer z-10' onClick={handleMobileMenuToggle}>
         {showMobileMenu ? <FaTimes size={20} /> : <FaBars size={20} />}
       </div>
       {/* Mobile menu */}
@@ -121,7 +121,7 @@ const navBackground = scrollPosition > 600 ? 'bg-white dark:bg-[#0a192f]' : 'bg-
         </li>
       </ul>
       {/* Social Icons */}
-      <div className='hidden lg:flex fixed flex-col top-[35%] left-0 '>
+      <div className='hidden lg:flex fixed flex-col top-1/2 left-0 transform -translate-y-1/2'>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-1px] hover:p-6 duration-300 bg-[#0A66C2] rounded-r-xl m-2'>
             <a className='flex justify-between items-center w-full text-white' href=''>
