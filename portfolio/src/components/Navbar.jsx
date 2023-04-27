@@ -29,9 +29,9 @@ useEffect(() => {
 const navBackground = scrollPosition > 600 ? 'bg-white dark:bg-[#0a192f]' : 'bg-transparent'
 
   return (
-    <div className={`${navBackground} text-[#0a192f] dark:text-gray-200 fixed w-full py-8 flex items-center px-12 md:px-20 justify-between z-50`}>
+    <div className={`${navBackground} text-[#0a192f] dark:text-gray-200 fixed w-full py-8 flex items-center px-6 sm:px-12 md:px-20 justify-between z-50`}>
       <div>
-        <h1 className=' font-[Birthstone] tracking-wide text-5xl font-light text-cyan-500'>{'<Alex Lauri />'}</h1>
+        <h1 className=' font-[Birthstone] tracking-wide text-3xl sm:text-5xl font-light text-cyan-500'>{'<Alex Lauri />'}</h1>
       </div>
       {/* darkModeToggleIcon */}
       <div className='lg:fixed lg:top-1/2 lg:right-10 lg:transform lg:-translate-y-1/2'>
