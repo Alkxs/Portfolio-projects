@@ -22,7 +22,7 @@ const Projects = () => {
               ></img>
             </div>
 
-            <div className='card-text lg:h-full lg:w-1/3 dark:text-gray-200 dark:bg-dark-main flex flex-col w-full justify-around items-center gap-6 sm:gap-12 lg:gap-8 py-8 sm:py-12 px-8 sm:px-14 lg:px-6 rounded-b-2xl lg:rounded-l-none lg:rounded-r-2xl dark:border dark:border-cyan-500'>
+            <div className='card-text lg:h-full lg:w-1/3 dark:text-gray-200 dark:bg-dark-main flex flex-col w-full justify-around items-center gap-6 sm:gap-12 lg:gap-8 py-8 sm:py-12 px-8 sm:px-14 md:px-6 rounded-b-2xl lg:rounded-l-none lg:rounded-r-2xl dark:border dark:border-cyan-500'>
               <h3 className='text-3xl md:text-4xl font-bold mb-2'>TheraFit</h3>
               <div className='w-full flex justify-center items-center flex-wrap gap-4'>
                 <SiHtml5 size={30} className='hover:scale-125 duration-300 text-[#E44D26]' />
@@ -37,12 +37,12 @@ const Projects = () => {
 
               <div className='buttons-container w-full flex justify-center items-center gap-8 flex-wrap'>
                 <a href='https://github.com/Alkxs/TheraFit' target='_blank'>
-                  <button className=' text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-white border px-2 sm:px-3 py-1 sm:py-2 hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
+                  <button className=' text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-cyan-500 border px-2 sm:px-3 md:px-5 xl:px-8 py-1 sm:py-2 xl:py-3 hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
                     Code
                   </button>
                 </a>
                 <a href='https://demo.com/' target='_blank'>
-                  <button className='text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-white border px-3 sm:px-4 py-1 sm:py-2 hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
+                  <button className='text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-cyan-500 border px-3 sm:px-4 md:px-6 xl:px-9 py-1 sm:py-2 xl:py-3 hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
                     Live
                   </button>
                 </a>
@@ -59,7 +59,7 @@ const Projects = () => {
               ></img>
             </div>
 
-            <div className='card-text lg:h-full lg:w-1/3 dark:text-gray-200 dark:bg-dark-main flex flex-col w-full justify-around items-center gap-6 sm:gap-12 lg:gap-8 py-8 sm:py-12 px-8 sm:px-14 lg:px-6 rounded-b-2xl lg:rounded-l-none lg:rounded-r-2xl dark:border dark:border-cyan-500'>
+            <div className='card-text lg:h-full lg:w-1/3 dark:text-gray-200 dark:bg-dark-main flex flex-col w-full justify-around items-center gap-6 sm:gap-12 lg:gap-8 py-8 sm:py-12 px-8 sm:px-14 md:px-6 rounded-b-2xl lg:rounded-l-none lg:rounded-r-2xl dark:border dark:border-cyan-500'>
               <h3 className='text-3xl md:text-4xl font-bold mb-2'> Portfolio</h3>
               <div className='w-full flex justify-center items-center flex-wrap gap-4'>
                 <SiHtml5 size={30} className='hover:scale-125 duration-300 text-[#E44D26]' />
@@ -72,13 +72,13 @@ const Projects = () => {
 
               <div className='buttons-container w-full flex justify-center items-center gap-8 flex-wrap'>
                 <a href='https://github.com/Alkxs/Portfolio-projects/tree/main/portfolio' target='_blank'>
-                  <button className='text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-white border px-2 sm:px-3 py-1 sm:py-2 hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
+                  <button className='text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-cyan-500 border px-2 sm:px-3 md:px-5 xl:px-8 py-1 sm:py-2 xl:py-3 hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
                     Code
                   </button>
                 </a>
 
                 <a href='https://demo.com/' target='_blank'>
-                  <button className='text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-white border px-3 sm:px-4 py-1 sm:py-2 hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
+                  <button className='text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-cyan-500 border px-3 sm:px-4 md:px-6 xl:px-9 py-1 sm:py-2 xl:py-3 hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
                     Live
                   </button>
                 </a>
@@ -95,7 +95,7 @@ const Projects = () => {
               ></img>
             </div>
 
-            <div className='card-text lg:h-full lg:w-1/3 dark:text-gray-200 dark:bg-dark-main flex flex-col w-full justify-around items-center gap-6 sm:gap-12 lg:gap-8 py-8 sm:py-12 px-8 sm:px-14 lg:px-6 rounded-b-2xl lg:rounded-l-none lg:rounded-r-2xl dark:border dark:border-cyan-500'>
+            <div className='card-text lg:h-full lg:w-1/3 dark:text-gray-200 dark:bg-dark-main flex flex-col w-full justify-around items-center gap-6 sm:gap-12 lg:gap-8 py-8 sm:py-12 px-8 sm:px-14 md:px-6 rounded-b-2xl lg:rounded-l-none lg:rounded-r-2xl dark:border dark:border-cyan-500'>
               <h3 className='text-3xl md:text-4xl font-bold mb-2'>Quizzle</h3>
               <div className='w-full flex justify-center items-center flex-wrap gap-4'>
                 <SiHtml5 size={30} className='hover:scale-125 duration-300 text-[#E44D26]' />
@@ -107,18 +107,25 @@ const Projects = () => {
 
               <div className='buttons-container w-full flex justify-center items-center gap-8'>
                 <a href='https://github.com/Alkxs/TheraFit' target='_blank'>
-                  <button className=' text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-white border px-2 sm:px-3 py-1 sm:py-2 hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
+                  <button className=' text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-cyan-500 border px-2 sm:px-3 md:px-5 xl:px-8 py-1 sm:py-2 xl:py-3 hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
                     Code
                   </button>
                 </a>
                 <a href='https://demo.com/' target='_blank'>
-                  <button className='text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-white border px-3 sm:px-4 py-1 sm:py-2 hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
+                  <button className='text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-cyan-500 border px-3 sm:px-4 md:px-6 xl:px-9 py-1 sm:py-2 xl:py-3 hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
                     Live
                   </button>
                 </a>
               </div>
             </div>
           </div>
+
+          <div className='flex justify-center items-center'>
+            <button className='text-[#0a192f] dark:bg-dark-main dark:text-white border border-[#0a192f] hover:border-cyan-500 dark:border dark:border-cyan-500 hover:text-white hover:bg-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 duration- md:px-53xl px-6 lg:px-8 py-3 xl:py-3 mt-4 :mt-10 mx-auto flex items-center rounded-md'>
+              See all projects
+            </button>
+          </div>
+
         </div>
       </div>
     </section>
