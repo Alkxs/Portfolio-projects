@@ -22,7 +22,7 @@ const Projects = () => {
               ></img>
             </div>
 
-            <div className='card-text lg:h-full lg:w-1/3 dark:text-gray-200 dark:bg-dark-main flex flex-col w-full justify-around items-center gap-8 sm:gap-12 lg:gap-8 py-12 px-8 sm:px-14 lg:px-6 rounded-b-2xl lg:rounded-l-none lg:rounded-r-2xl dark:border dark:border-cyan-500'>
+            <div className='card-text lg:h-full lg:w-1/3 dark:text-gray-200 dark:bg-dark-main flex flex-col w-full justify-around items-center gap-6 sm:gap-12 lg:gap-8 py-8 sm:py-12 px-8 sm:px-14 lg:px-6 rounded-b-2xl lg:rounded-l-none lg:rounded-r-2xl dark:border dark:border-cyan-500'>
               <h3 className='text-3xl md:text-4xl font-bold mb-2'>TheraFit</h3>
               <div className='w-full flex justify-center items-center flex-wrap gap-4'>
                 <SiHtml5 size={30} className='hover:scale-125 duration-300 text-[#E44D26]' />
@@ -39,11 +39,6 @@ const Projects = () => {
                 <a href='https://github.com/Alkxs/TheraFit' target='_blank'>
                   <button className=' text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-white border px-2 sm:px-3 py-1 sm:py-2 hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
                     Code
-                  </button>
-                </a>
-                <a href='https://demo.com/' target='_blank'>
-                  <button className=' text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-white border px-2 sm:px-3 py-1 sm:py-2  hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
-                    Demo
                   </button>
                 </a>
                 <a href='https://demo.com/' target='_blank'>
@@ -64,7 +59,7 @@ const Projects = () => {
               ></img>
             </div>
 
-            <div className='card-text lg:h-full lg:w-1/3 dark:text-gray-200 dark:bg-dark-main flex flex-col w-full justify-around items-center gap-8 sm:gap-12 lg:gap-8 py-12 px-8 sm:px-14 lg:px-6 rounded-b-2xl lg:rounded-l-none lg:rounded-r-2xl dark:border dark:border-cyan-500'>
+            <div className='card-text lg:h-full lg:w-1/3 dark:text-gray-200 dark:bg-dark-main flex flex-col w-full justify-around items-center gap-6 sm:gap-12 lg:gap-8 py-8 sm:py-12 px-8 sm:px-14 lg:px-6 rounded-b-2xl lg:rounded-l-none lg:rounded-r-2xl dark:border dark:border-cyan-500'>
               <h3 className='text-3xl md:text-4xl font-bold mb-2'> Portfolio</h3>
               <div className='w-full flex justify-center items-center flex-wrap gap-4'>
                 <SiHtml5 size={30} className='hover:scale-125 duration-300 text-[#E44D26]' />
@@ -100,7 +95,7 @@ const Projects = () => {
               ></img>
             </div>
 
-            <div className='card-text lg:h-full lg:w-1/3 dark:text-gray-200 dark:bg-dark-main flex flex-col w-full justify-around items-center gap-8 sm:gap-12 lg:gap-8 py-12 px-8 sm:px-14 lg:px-6 rounded-b-2xl lg:rounded-l-none lg:rounded-r-2xl dark:border dark:border-cyan-500'>
+            <div className='card-text lg:h-full lg:w-1/3 dark:text-gray-200 dark:bg-dark-main flex flex-col w-full justify-around items-center gap-6 sm:gap-12 lg:gap-8 py-8 sm:py-12 px-8 sm:px-14 lg:px-6 rounded-b-2xl lg:rounded-l-none lg:rounded-r-2xl dark:border dark:border-cyan-500'>
               <h3 className='text-3xl md:text-4xl font-bold mb-2'>Quizzle</h3>
               <div className='w-full flex justify-center items-center flex-wrap gap-4'>
                 <SiHtml5 size={30} className='hover:scale-125 duration-300 text-[#E44D26]' />
@@ -110,15 +105,10 @@ const Projects = () => {
               </div>
               <p className='w-full text-sm sm:text-lg'>An engaging quiz app offering a personalized knowledge-testing challenge</p>
 
-              <div className='buttons-container w-full flex justify-center items-center gap-8 flex-wrap'>
+              <div className='buttons-container w-full flex justify-center items-center gap-8'>
                 <a href='https://github.com/Alkxs/TheraFit' target='_blank'>
                   <button className=' text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-white border px-2 sm:px-3 py-1 sm:py-2 hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
                     Code
-                  </button>
-                </a>
-                <a href='https://demo.com/' target='_blank'>
-                  <button className=' text-[#0a192f] dark:text-white  border-[#0a192f] dark:border-white border px-2 sm:px-3 py-1 sm:py-2  hover:text-cyan-500 hover:border-cyan-500 dark:hover:border-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 rounded-md hover:scale-105 duration-300'>
-                    Demo
                   </button>
                 </a>
                 <a href='https://demo.com/' target='_blank'>
