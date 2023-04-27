@@ -2,8 +2,8 @@ import {FaGithub, FaLinkedin, FaTwitter, FaEnvelope} from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <div name='footer' className='h-20 bg-gray-200 dark:bg-[#112b52] dark:text-gray-200'>
-      <div className='w-full h-full flex justify-around items-center'>
+    <div name='footer' className='bg-gray-200 dark:bg-[#112b52] dark:text-gray-200'>
+      <div className='w-full h-full flex justify-around items-center gap-6 md:gap-0 py-6 md:py-10 flex-col-reverse md:flex-row'>
         <h3>&copy; {new Date().getFullYear()} Alex Lauri </h3>
         <div className='flex'>
           <a href='https://github.com/Alkxs' target='_blank' rel='noopener noreferrer' className='github px-2 sm:px-5 text-black dark:text-gray-200'>

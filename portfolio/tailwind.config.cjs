@@ -8,7 +8,7 @@ module.exports = {
         'dark-main': '#0a192f',
       },
       screens: {
-        sm: '480px',
+        sm: '500px',
       },
       textColor: {
         'dark-main': '#0a192f',

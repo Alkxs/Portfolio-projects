@@ -10,11 +10,10 @@
   padding: 0;
 }
 
-
 @layer base {
   html,
   body {
-    @apply font-[Raleway] h-full w-full
+    @apply font-[Raleway] min-h-screen min-w-full
   }
   li {
     @apply px-4 cursor-pointer

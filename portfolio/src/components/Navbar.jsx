@@ -29,10 +29,9 @@ useEffect(() => {
 const navBackground = scrollPosition > 600 ? 'bg-white dark:bg-[#0a192f]' : 'bg-transparent'
 
   return (
-    <div className={`${navBackground} text-[#0a192f] dark:text-gray-200 fixed w-full h-24 flex items-center px-12 md:px-20 justify-between z-50`}>
+    <div className={`${navBackground} text-[#0a192f] dark:text-gray-200 fixed w-full py-8 flex items-center px-12 md:px-20 justify-between z-50`}>
       <div>
         <h1 className=' font-[Birthstone] tracking-wide text-5xl font-light text-cyan-500'>{'<Alex Lauri />'}</h1>
-        {/* <img src={logo} alt='Logo Image' /> */}
       </div>
       {/* darkModeToggleIcon */}
       <div className='lg:fixed lg:top-1/2 lg:right-10 lg:transform lg:-translate-y-1/2'>
@@ -90,7 +89,7 @@ const navBackground = scrollPosition > 600 ? 'bg-white dark:bg-[#0a192f]' : 'bg-
       <ul
         className={
           showMobileMenu
-            ? 'absolute top-0 left-0 w-full h-screen bg-white-200 bg-gray-400 dark:bg-[#0a192f] flex flex-col justify-center items-center opacity-100'
+            ? 'mobile menu absolute top-0 left-0 w-full h-screen bg-white-200 bg-gray-400 dark:bg-dark-main flex flex-col justify-center items-center opacity-100'
             : 'hidden'
         }
       >

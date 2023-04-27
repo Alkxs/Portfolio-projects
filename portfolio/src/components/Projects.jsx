@@ -12,9 +12,9 @@ const Projects = () => {
     <section name='projects'>
       <h2 className='title'>Projects</h2>
       <div className='container'>
-        <div className='w-full sm:max-w-md md:max-w-md lg:max-w-3xl xl:max-w-6xl flex flex-col justify-center items-center gap-20'>
+        <div className='w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-3xl xl:max-w-6xl flex flex-col justify-center items-center gap-20'>
           {/* Project 1 */}
-          <div className='project-card flex justify-center flex-col lg:flex-row items-center mx-auto lg:h-[500px] transition-shadow duration-300 cursor-pointer bg-white max-w-6xl rounded-2xl shadow-2xl hover:shadow-2xl hover:shadow-black dark:hover:shadow-white'>
+          <div className='project-card flex justify-center items-center flex-col w-full lg:flex-row  lg:h-[500px] transition-shadow duration-300 cursor-pointer bg-white lg:max-w-3xl xl:max-w-6xl rounded-2xl shadow-2xl hover:shadow-2xl hover:shadow-black dark:hover:shadow-white'>
             <div className='flex justify-center items-center w-full lg:h-full lg:w-2/3 rounded-t-2xl lg:rounded-l-2xl lg:rounded-r-none'>
               <img
                 className='rounded-t-2xl lg:rounded-l-2xl lg:rounded-r-none h-full w-full object-cover lg:border-r border-grey-100 dark:border dark:border-cyan-500'
@@ -66,7 +66,7 @@ const Projects = () => {
           </div>
 
           {/* Project 2 */}
-          <div className='project-card flex justify-center   flex-col lg:flex-row items-center mx-auto lg:h-[500px] transition-shadow duration-300 rounded-2xl cursor-pointer bg-white max-w-6xl shadow-2xl hover:shadow-2xl hover:shadow-black dark:hover:shadow-white'>
+          <div className='project-card flex justify-center items-center flex-col lg:flex-row lg:h-[500px] transition-shadow duration-300 rounded-2xl cursor-pointer bg-white max-w-xs sm:max-w-sm md:max-w-md lg:max-w-3xl xl:max-w-6xl shadow-2xl hover:shadow-2xl hover:shadow-black dark:hover:shadow-white'>
             <div className='flex justify-center items-center w-full lg:h-full lg:w-2/3 rounded-t-2xl lg:rounded-l-2xl lg:rounded-r-none'>
               <img
                 className='rounded-t-2xl lg:rounded-l-2xl lg:rounded-r-none h-full w-full object-cover lg:object-fill lg:border-r border-grey-100 dark:border dark:border-cyan-500'
@@ -102,7 +102,7 @@ const Projects = () => {
           </div>
 
           {/* Project 3 */}
-          <div className='project-card flex justify-center flex-col lg:flex-row items-center mx-auto lg:h-[500px] transition-shadow duration-300 cursor-pointer bg-white max-w-6xl rounded-2xl shadow-2xl hover:shadow-2xl hover:shadow-black dark:hover:shadow-white'>
+          <div className='project-card flex justify-center flex-col lg:flex-row items-center lg:h-[500px] transition-shadow duration-300 cursor-pointer bg-white max-w-6xl rounded-2xl shadow-2xl hover:shadow-2xl hover:shadow-black dark:hover:shadow-white'>
             <div className='flex justify-center items-center w-full lg:h-full lg:w-2/3 rounded-t-2xl lg:rounded-l-2xl lg:rounded-r-none'>
               <img
                 className='rounded-t-2xl lg:rounded-l-2xl lg:rounded-r-none h-full w-full object-cover lg:border-r border-grey-100 dark:border dark:border-cyan-500'
@@ -149,7 +149,6 @@ const Projects = () => {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
