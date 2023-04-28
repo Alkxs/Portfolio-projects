@@ -14,15 +14,15 @@ const Projects = () => {
       <div className='container'>
         <div className='w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-3xl xl:max-w-6xl flex flex-col justify-center items-center gap-10 md:gap-20'>
           {/* Project 1 */}
-          <div className='project-card flex justify-center items-center flex-col w-full lg:flex-row lg:h-[500px] transition-shadow duration-300 cursor-pointer bg-white max-w-xs sm:max-w-sm md:max-w-md lg:max-w-3xl xl:max-w-6xl rounded-2xl shadow-2xl hover:shadow-2xl hover:shadow-black dark:hover:shadow-white'>
-            <div className='image-container flex justify-center items-center w-full lg:h-full lg:w-2/3 rounded-t-2xl lg:rounded-l-2xl lg:rounded-r-none'>
+          <div className='project-card flex justify-center items-center flex-col w-full lg:flex-row lg:h-[500px] transition-shadow duration-300 cursor-pointer bg-white max-w-xs sm:max-w-sm md:max-w-md lg:max-w-3xl xl:max-w-6xl rounded-lg shadow-2xl hover:shadow-2xl hover:shadow-black dark:hover:shadow-white'>
+            <div className='image-container flex justify-center items-center w-full lg:h-full lg:w-2/3 rounded-t-lg lg:rounded-l-lg lg:rounded-r-none'>
               <img
-                className='rounded-t-2xl lg:rounded-l-2xl lg:rounded-r-none h-full w-full object-cover lg:border-r border-grey-100 dark:border dark:border-cyan-500'
+                className='rounded-t-lg lg:rounded-l-lg lg:rounded-r-none h-full w-full object-cover lg:border-r border-grey-100 dark:border dark:border-cyan-500'
                 src={project1}
               ></img>
             </div>
 
-            <div className='card-text lg:h-full lg:w-1/3 dark:text-gray-200 dark:bg-dark-main flex flex-col w-full justify-around items-center gap-6 sm:gap-12 lg:gap-8 py-8 sm:py-12 px-8 sm:px-14 md:px-6 rounded-b-2xl lg:rounded-l-none lg:rounded-r-2xl dark:border dark:border-cyan-500'>
+            <div className='card-text lg:h-full lg:w-1/3 dark:text-gray-200 dark:bg-dark-main flex flex-col w-full justify-around items-center gap-6 sm:gap-12 lg:gap-8 py-8 sm:py-12 px-8 sm:px-14 md:px-6 rounded-b-lg lg:rounded-l-none lg:rounded-r-lg dark:border dark:border-cyan-500'>
               <h3 className='text-3xl md:text-4xl font-bold mb-2'>TheraFit</h3>
               <div className='w-full flex justify-center items-center flex-wrap gap-4'>
                 <SiHtml5 size={30} className='hover:scale-125 duration-300 text-[#E44D26]' />
@@ -51,15 +51,15 @@ const Projects = () => {
           </div>
 
           {/* Project 2 */}
-          <div className='project-card flex justify-center items-center flex-col w-full lg:flex-row lg:h-[500px] transition-shadow duration-300 cursor-pointer bg-white max-w-xs sm:max-w-sm md:max-w-md lg:max-w-3xl xl:max-w-6xl rounded-2xl shadow-2xl hover:shadow-2xl hover:shadow-black dark:hover:shadow-white'>
-            <div className='image-container flex justify-center items-center w-full lg:h-full lg:w-2/3 rounded-t-2xl lg:rounded-l-2xl lg:rounded-r-none'>
+          <div className='project-card flex justify-center items-center flex-col w-full lg:flex-row lg:h-[500px] transition-shadow duration-300 cursor-pointer bg-white max-w-xs sm:max-w-sm md:max-w-md lg:max-w-3xl xl:max-w-6xl rounded-lg shadow-2xl hover:shadow-2xl hover:shadow-black dark:hover:shadow-white'>
+            <div className='image-container flex justify-center items-center w-full lg:h-full lg:w-2/3 rounded-t-lg lg:rounded-l-lg lg:rounded-r-none'>
               <img
-                className='rounded-t-2xl lg:rounded-l-2xl lg:rounded-r-none h-full w-full object-cover lg:object-fill lg:border-r border-grey-100 dark:border dark:border-cyan-500'
+                className='rounded-t-lg lg:rounded-l-lg lg:rounded-r-none h-full w-full object-cover lg:object-fill lg:border-r border-grey-100 dark:border dark:border-cyan-500'
                 src={theme === 'dark' ? project2Light : project2Dark}
               ></img>
             </div>
 
-            <div className='card-text lg:h-full lg:w-1/3 dark:text-gray-200 dark:bg-dark-main flex flex-col w-full justify-around items-center gap-6 sm:gap-12 lg:gap-8 py-8 sm:py-12 px-8 sm:px-14 md:px-6 rounded-b-2xl lg:rounded-l-none lg:rounded-r-2xl dark:border dark:border-cyan-500'>
+            <div className='card-text lg:h-full lg:w-1/3 dark:text-gray-200 dark:bg-dark-main flex flex-col w-full justify-around items-center gap-6 sm:gap-12 lg:gap-8 py-8 sm:py-12 px-8 sm:px-14 md:px-6 rounded-b-lg lg:rounded-l-none lg:rounded-r-lg dark:border dark:border-cyan-500'>
               <h3 className='text-3xl md:text-4xl font-bold mb-2'> Portfolio</h3>
               <div className='w-full flex justify-center items-center flex-wrap gap-4'>
                 <SiHtml5 size={30} className='hover:scale-125 duration-300 text-[#E44D26]' />
@@ -87,15 +87,15 @@ const Projects = () => {
           </div>
 
           {/* Project 3 */}
-          <div className='project-card flex justify-center items-center flex-col w-full lg:flex-row lg:h-[500px] transition-shadow duration-300 cursor-pointer bg-white max-w-xs sm:max-w-sm md:max-w-md lg:max-w-3xl xl:max-w-6xl rounded-2xl shadow-2xl hover:shadow-2xl hover:shadow-black dark:hover:shadow-white'>
-            <div className='image-container flex justify-center items-center w-full lg:h-full lg:w-2/3 rounded-t-2xl lg:rounded-l-2xl lg:rounded-r-none'>
+          <div className='project-card flex justify-center items-center flex-col w-full lg:flex-row lg:h-[500px] transition-shadow duration-300 cursor-pointer bg-white max-w-xs sm:max-w-sm md:max-w-md lg:max-w-3xl xl:max-w-6xl rounded-lg shadow-2xl hover:shadow-2xl hover:shadow-black dark:hover:shadow-white'>
+            <div className='image-container flex justify-center items-center w-full lg:h-full lg:w-2/3 rounded-t-lg lg:rounded-l-lg lg:rounded-r-none'>
               <img
-                className='rounded-t-2xl lg:rounded-l-2xl lg:rounded-r-none h-full w-full object-cover lg:border-r border-grey-100 dark:border dark:border-cyan-500'
+                className='rounded-t-lg lg:rounded-l-lg lg:rounded-r-none h-full w-full object-cover lg:border-r border-grey-100 dark:border dark:border-cyan-500'
                 src={project3}
               ></img>
             </div>
 
-            <div className='card-text lg:h-full lg:w-1/3 dark:text-gray-200 dark:bg-dark-main flex flex-col w-full justify-around items-center gap-6 sm:gap-12 lg:gap-8 py-8 sm:py-12 px-8 sm:px-14 md:px-6 rounded-b-2xl lg:rounded-l-none lg:rounded-r-2xl dark:border dark:border-cyan-500'>
+            <div className='card-text lg:h-full lg:w-1/3 dark:text-gray-200 dark:bg-dark-main flex flex-col w-full justify-around items-center gap-6 sm:gap-12 lg:gap-8 py-8 sm:py-12 px-8 sm:px-14 md:px-6 rounded-b-lg lg:rounded-l-none lg:rounded-r-lg dark:border dark:border-cyan-500'>
               <h3 className='text-3xl md:text-4xl font-bold mb-2'>Quizzle</h3>
               <div className='w-full flex justify-center items-center flex-wrap gap-4'>
                 <SiHtml5 size={30} className='hover:scale-125 duration-300 text-[#E44D26]' />

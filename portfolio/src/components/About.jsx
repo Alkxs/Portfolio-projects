@@ -6,9 +6,9 @@ const About = () => {
     <section name='about' className='pt-0 sm:pt-32'>
       <h2 className='title'>About</h2>
       <div className='container'>
-        <div className='about-card bg-white w-full flex flex-col lg:flex-row justify-center items-center py-6 pb-8 sm:py-8 md:py-10 gap-10 lg:gap-10 xl:gap-0 lg:p-10 xl:py-16 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-4xl xl:max-w-6xl border rounded-2xl shadow-lg hover:shadow-2xl hover:shadow-black dark:border-cyan-500 dark:bg-dark-main dark:hover:shadow-white  '>
+        <div className='about-card bg-white w-full flex flex-col lg:flex-row justify-center items-center py-6 pb-8 sm:py-8 md:py-10 gap-10 lg:gap-10 xl:gap-0 lg:p-10 xl:py-16 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-4xl xl:max-w-6xl border rounded-lg shadow-lg hover:shadow-2xl hover:shadow-black dark:border-cyan-500 dark:bg-dark-main dark:hover:shadow-white  '>
           <div className='flex justify-center items-center w-full px-6 lg:px-0 md:px-10 lg:w-2/5'>
-            <img className='rounded-2xl h-full w-full' src={profile}></img>
+            <img className='rounded-lg h-full w-full' src={profile}></img>
           </div>
           <div className='w-full lg:w-3/5 dark:text-gray-200 flex flex-col justify-start items-center text-xs sm:text-sm md:text-lg xl:text-md px-8 sm:px-12 lg:px-0 xl:pl-10 gap-4 sm:gap-6 lg:gap-3 xl:gap-2'>
             <div className='w-full text-left flex justify-start'>
